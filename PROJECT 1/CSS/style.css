@@ -1,0 +1,92 @@
+body{
+    margin-top: 0px;
+    margin: 0px;
+}
+/*header*/
+#company-name{
+    height: 100px;
+    background-color:#247b7b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#head-name{
+    color: #FFFFFA;
+    margin: 0px;
+    font-size: 2.8em;
+    
+}
+#head-bio{
+    color: #f7f7d6;
+    margin: 0px;
+    font-size: 1.2em;
+}
+#navbar{
+    margin: 0px;
+    background-color: #0D5C63;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+#navbar a{
+    
+    color: #FFFFFA;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 1.2em;
+}
+#navbar a:hover{
+    transition: all 0.1s ease-out 0s;
+    border: 2px solid whitesmoke;
+    font-size: 1.3em;
+    padding: 5px;
+    border-radius: 15%;
+}
+/*main*/
+
+#hero-img{
+    background-image: url("../ASSETS/images/hero-img.png");
+    background-size: cover;
+    min-height: 600px;
+}
+/*footer*/
+.footer-container{
+    background-color: #247b7b;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer-column{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer-column h3{
+    font-size: 1.4em;
+    color:#FFFFFA;
+    font-weight: 600;
+}
+.footer-column a{
+    font-size: 1.1em;
+    color: #FFFFFA;
+    text-decoration: none;
+}
+
+#foot{
+    bottom: 0px;
+    position: relative;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFA;
+    background-color: #0D5C63;
+}
+#foot p{
+    margin: 0px;
+    font-size: 1em ;
+}

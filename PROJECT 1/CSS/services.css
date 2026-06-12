@@ -1,0 +1,163 @@
+body{
+    margin-top: 0px;
+    margin: 0px;
+}
+/*header*/
+#company-name{
+    height: 100px;
+    background-color:#247b7b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#head-name{
+    color: #FFFFFA;
+    margin: 0px;
+    font-size: 2.8em;
+    
+}
+#head-bio{
+    color: #f7f7d6;
+    margin: 0px;
+    font-size: 1.2em;
+}
+#navbar{
+    margin: 0px;
+    background-color: #0D5C63;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+#navbar a{
+    
+    color: #FFFFFA;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 1.2em;
+}
+#navbar a:hover{
+    transition: all 0.1s ease-out 0s;
+    border: 2px solid whitesmoke;
+    font-size: 1.3em;
+    padding: 5px;
+    border-radius: 15%;
+}
+/* Services Section Styles */
+#services {
+    padding: 40px;
+    min-height: 800px;
+}
+
+#services h2 {
+    background-color: #98d9e0;
+    font-size: 2.5em;
+    height:60px;
+    display: flex;
+    align-items: center;
+}
+
+#services p {
+    font-size: 30px;
+    color: black;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+#services ul {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#services li {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#services strong {
+    font-size: 30px;
+    color: #0D5C63;
+    border-bottom: 2px solid #247b7b;
+    margin-bottom: 20px;
+}
+#services div{
+    font-size: 1.2em;
+    padding-bottom: 20px;
+}
+#service-img1{
+    background-image: url("../ASSETS/images/cloud-solution.png");
+    background-size: cover;
+    width: 300px;
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#service-img2{
+    background-image: url("../ASSETS/images/custom-software.png");
+    background-size: cover;
+    width: 300px;
+    min-height: 350px;
+    display: flex;
+    align-content: center;
+}
+#service-img3{
+    background-image: url("../ASSETS/images/cybersecurity.png");
+    background-size: cover;
+    width: 300px;
+    min-height: 350px;
+}
+#services a{
+    font-weight: 500;
+    color: rgb(61, 61, 159);
+    font-size: 1.3em;
+    padding-top: 30px;
+    text-align: right;
+    text-decoration: none;
+}
+
+/*footer*/
+.footer-container{
+    background-color: #247b7b;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer-column{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.footer-column h3{
+    font-size: 1.4em;
+    color:#FFFFFA;
+    font-weight: 600;
+}
+.footer-column a{
+    font-size: 1.1em;
+    color: #FFFFFA;
+    text-decoration: none;
+}
+
+#foot{
+    bottom: 0px;
+    position: relative;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFA;
+    background-color: #0D5C63;
+}
+#foot p{
+    margin: 0px;
+    font-size: 1em ;
+}
